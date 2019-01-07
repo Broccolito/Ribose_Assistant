@@ -26,8 +26,16 @@ library(NLP, lib.loc = wd_lib)  #Natual Language Processing
 library(openNLP, lib.loc = wd_lib) #NLP package
 library(RWeka, lib.loc = wd_lib) #NLP package
 
+#Import libraries await to be set up
+library(magick) 
+#library(imager)
+
+
+
 #Set up webshot package
-install_phantomjs()
+suppressMessages({
+  install_phantomjs()
+})
 
 source("NLP_analysis.R")
 source("file_operation.R")

@@ -60,6 +60,8 @@ wd_lib = paste(wd,"/libs", sep = "")
 
 #Initializing Workspace
 source("start_up.R")
+source("file_operation.R")
+source("NLP_analysis.R")
 source("web_shot.R")
 
 
